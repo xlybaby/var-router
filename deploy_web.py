@@ -32,8 +32,8 @@ def copyFiles(sourceDir,  targetDir):
             copyFiles(sourceFile, targetFile)
    
 if __name__ == '__main__':
-  srcDir = "/Users/apple/Documents/var/workspace/var-view"
-  targetDir = "/Users/apple/Documents/var/workspace/var-static/var"
+  srcDir = "D:/developer/var-workspace/var-view"
+  targetDir = "D:/developer/var-workspace/var-static/var"
   
   props={}
   if len(sys.argv) > 1:
